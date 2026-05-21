@@ -5,7 +5,7 @@
 
 - Two spheres with independently configurable diameters
 - A center-to-center connecting cylinder
-- Automatic default sphere-center separation of `3x` the larger sphere radius
+- Default sphere-center separation of `3x` the larger sphere radius
 
 ## Requirements
 
