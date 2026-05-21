@@ -16,6 +16,24 @@
 - `mrcfile`
 - `matplotlib`
 
+## Instance Info
+
+By default the script looks for `~/instance_info.json`. You can also pass it explicitly with `--instance-info /path/to/instance_info.json`.
+
+Example format:
+
+```json
+{
+    "license": "YOUR_LICENSE_ID",
+    "email": "user@example.com",
+    "password": "YOUR_PASSWORD",
+    "base_port": 39000,
+    "host": "YOUR_CRYOSPARC_HOST"
+}
+```
+
+The `license` value can be found in `cryosparc2_master/config.sh`.
+
 ## Basic usage
 
 ```bash
